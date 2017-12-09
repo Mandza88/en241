@@ -1,0 +1,28 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar>
+    
+      <img src="img/logo.png" alt="img01"/>
+      
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+       <!-- <ion-icon name="{{p.icon}}"></ion-icon> -->
+       <ion-badge color="{{p.color}}"><i class="fa fa-{{p.icon}}" aria-hidden="true"  ></i></ion-badge>
+       {{p.title}}
+      </button>
+    </ion-list>
+    <ion-list>
+      <button menuClose ion-item *ngFor="let c of contacts" (click)="openPage(c)">
+        <ion-badge color="{{c.color}}"><i class="fa fa-{{c.icon}}" aria-hidden="true"  ></i></ion-badge> {{c.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

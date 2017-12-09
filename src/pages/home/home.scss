@@ -1,0 +1,91 @@
+page-home {
+    .slide{
+        height: 35%;
+        background-color: darkorange;
+        position: relative;
+     
+    }
+    .fab{
+        margin-right: 15%;
+    }
+    .header.header-md-background{
+        background: transparent; 
+    }
+    .toolbar-background {
+        background: transparent;
+        border-color: transparent;
+      }
+  
+    .scroll-content{
+        margin-top: 0px;
+    }
+    .ins{
+        background-color: #0453BD;
+    }
+    .con{
+        background-color: rgb(241, 207, 11);
+        margin-right: 2%;
+    }
+    .toolbar-md {
+        padding: 4px;
+        min-height: 56px;
+        background-color: rgba(0, 46, 255, 0.8);;
+    }
+    .opaque {
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backface-visibility: saturate(180%) blur(20px);
+      }
+      
+      .opaque .toolbar-background {
+        background-color: rgba(#f8f8f8, 0.55);
+      }
+      .slide-zoom {
+        height: 100%;
+      }
+    
+      .slide-title {
+        margin-top: 2.8rem;
+      }
+    
+      .slide-image {
+        margin-top: 0px;
+        max-height: auto;
+        max-width: auto;
+        width: 100%;
+      }
+    
+      b {
+        font-weight: 500;
+      }
+    
+      p {
+        padding: 0 40px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #60646B;
+    
+        b {
+          color: #000000;
+        }
+      }
+      .transbox {
+        margin: 0px;
+        position: relative;
+        left: 0;
+        top: 0%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+    }
+    
+    div.transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+}

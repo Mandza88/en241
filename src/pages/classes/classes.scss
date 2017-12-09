@@ -1,0 +1,10 @@
+page-classes {
+    .free {
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backface-visibility: saturate(180%) blur(20px);
+      }
+      
+      .free .toolbar-background {
+        background-color: rgba(#f8f8f8, 0.55);
+      }
+}
